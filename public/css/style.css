@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.main-logo
+{
+    width: 25px;
+    height: auto;
+}
+.card-size-image{
+    width: 100px;
+}
+
+.rounded-image-background{
+    background-color: #A4AC6C;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.white-text{
+    color: #EEEEEE;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.white-text-hyperlink:hover{
+    color:#8B9A46;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 1px solid #8B9A46;
+
+}
+
+.normal-text{
+    color: #0F0E0E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.normal-text-hyperlink:hover{
+    color: #0F0E0E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.active{
+    color: #8B9A46 !important;
+    font-weight: 700;
+    border-bottom: 1px solid #8B9A46 !important;
+}
+
+.navigation-item{
+    margin: 2px
+
+}
+
+.navigation-item:not(.active):hover{
+    color: #8B9A46 !important;
+    border-bottom: 1px solid #8B9A46;
+}
+
+.welcome-container{
+    height: 90vh;
+    width: 100%;
+    overflow:auto;
+}
+.border-bottom{
+    border-bottom: 0.5px solid #0F0E0E;
+}
+.bg-green{
+    background-color: #8B9A46;
+}
+.card-padding{
+    padding: 80px 10px 80px 10px;
+}
+.border-radius-7{
+    border-radius: 7px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.home-defined-text{
+    font-weight: bolder;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-top: 25%;
+}
+
+.set-position-left{
+    text-align: left;
+}
+
+.set-position-right{
+    text-align: right;
+}
+
+.footer{
+    background-color: #0F0E0E;
+    clear: both;
+    position:relative;
+    bottom: 0;
+    padding: 2%;
+}
