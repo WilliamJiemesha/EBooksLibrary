@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -39,6 +41,7 @@ html,body{
 
 }
 
+
 .normal-text{
     color: #0F0E0E;
     font-family: 'DM Sans', sans-serif;
@@ -71,7 +74,12 @@ html,body{
 .welcome-container{
     height: 90vh;
     width: 100%;
-    overflow:auto;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
 }
 .border-bottom{
     border-bottom: 0.5px solid #0F0E0E;
@@ -98,6 +106,7 @@ html,body{
     font-weight: bolder;
     font-size: 32px;
     letter-spacing: 2px;
+    /* margin-top: 50%; */
     margin-top: 25%;
 }
 
@@ -114,5 +123,16 @@ html,body{
     clear: both;
     position:relative;
     bottom: 0;
-    padding: 2%;
+    padding: 1.5vh;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .welcome-container{
+        height: 60vh;
+    }
+    .home-defined-text{
+        margin-top: 50%;
+    }
 }

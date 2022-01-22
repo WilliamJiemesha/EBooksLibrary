@@ -40,7 +40,6 @@
                 FREE for you to download</div>
         </div>
     </div>
-    {{-- Previews --}}
 
     {{-- Footer --}}
     @include('templates.footer')

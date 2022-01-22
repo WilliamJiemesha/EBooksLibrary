@@ -5,7 +5,7 @@ integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRk
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-<nav class="navbar navbar-expand-lg navbar-light bg-default">
+<nav class="navbar navbar-expand-lg navbar-light bg-default border-bottom">
     <div class="mx-auto w-50 order-0">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item d-flex align-items-center justify-content-center">
