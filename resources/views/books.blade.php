@@ -32,41 +32,70 @@
                     </div>
                     <div class="book-content center">
                         <div class="book-title normal-text">Subtle Art of Not Giving a Fuck</div>
-                        <div class="book-author normal-text">Mark Manson</div>
+                        <div class="book-author normal-text">Author: Mark Manson</div>
+                        <div class="book-author normal-text">Release: 2001-02-22</div>
+                        <div class="book-author normal-text">Last Revision: 2021-02-22</div>
+                        <div class="download-button">
+                            <a href="{{ asset('images/subtleartofnotgivingafuck.jpg') }}"
+                                download="bookname"><button>Download</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-auto d-flex align-items-stretch book-card center">
                 <div class="">
-                    <div class="book-cover">
-                        <img src="{{ asset('images/subtleartofnotgivingafuck.jpg') }}" alt="">
-                    </div>
-                    <div class="book-content center">
-                        <div class="book-title normal-text">Subtle Art of Not a Fuck</div>
-                        <div class="book-author normal-text">Mark Manson</div>
-                    </div>
+                    
+                        <div class="book-cover">
+                            <img src="{{ asset('images/subtleartofnotgivingafuck.jpg') }}" alt="">
+                        </div>
+                        <div class="book-content center">
+                            <div class="book-title normal-text">Subtle Art of Not a Fuck</div>
+                            <div class="book-author normal-text">Author: Mark Manson</div>
+                            <div class="book-author normal-text">Release: 2001-02-22</div>
+                            <div class="book-author normal-text">Last Revision: 2021-02-22</div>
+                            <div class="download-button">
+                                <a href="{{ asset('images/subtleartofnotgivingafuck.jpg') }}"
+                                    download="bookname"><button>Download</button></a>
+                            </div>
+                        </div>
+
                 </div>
             </div>
             <div class="col-auto d-flex align-items-stretch book-card center">
                 <div class="">
-                    <div class="book-cover">
-                        <img src="{{ asset('images/subtleartofnotgivingafuck.jpg') }}" alt="">
-                    </div>
-                    <div class="book-content center">
-                        <div class="book-title normal-text">Subtle Art of Not Giving a Fuck</div>
-                        <div class="book-author normal-text">Mark Manson</div>
-                    </div>
+
+                        <div class="book-cover">
+                            <img src="{{ asset('images/subtleartofnotgivingafuck.jpg') }}" alt="">
+                        </div>
+                        <div class="book-content center">
+                            <div class="book-title normal-text">Subtle Art of Not Giving a Fuck</div>
+                            <div class="book-author normal-text">Author: Mark Manson</div>
+                            <div class="book-author normal-text">Release: 2001-02-22</div>
+                            <div class="book-author normal-text">Last Revision: 2021-02-22</div>
+                            <div class="download-button">
+                                <a href="{{ asset('images/subtleartofnotgivingafuck.jpg') }}"
+                                    download="bookname"><button>Download</button></a>
+                            </div>
+                        </div>
+
                 </div>
             </div>
             <div class="col-auto d-flex align-items-stretch book-card center">
                 <div class="">
-                    <div class="book-cover">
-                        <img src="{{ asset('images/subtleartofnotgivingafuck.jpg') }}" alt="">
-                    </div>
-                    <div class="book-content center">
-                        <div class="book-title normal-text">Subtle Art of Not a Fuck</div>
-                        <div class="book-author normal-text">Mark Manson</div>
-                    </div>
+
+                        <div class="book-cover">
+                            <img src="{{ asset('images/subtleartofnotgivingafuck.jpg') }}" alt="">
+                        </div>
+                        <div class="book-content center">
+                            <div class="book-title normal-text">Subtle Art of Not a Fuck</div>
+                            <div class="book-author normal-text">Author: Mark Manson</div>
+                            <div class="book-author normal-text">Release: 2001-02-22</div>
+                            <div class="book-author normal-text">Last Revision: 2021-02-22</div>
+                            <div class="download-button">
+                                <a href="{{ asset('images/subtleartofnotgivingafuck.jpg') }}"
+                                    download="bookname"><button>Download</button></a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>

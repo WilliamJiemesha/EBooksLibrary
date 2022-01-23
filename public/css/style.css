@@ -149,7 +149,7 @@ input[type="text"].searchbox:focus{
     border-radius: 5px;
     border: 0.1px solid rgba(15, 14, 14, 0.2);
     box-shadow: 3px 3px 2px 2px rgba(15, 14, 14, 0.1);
-    padding: 5%;
+    padding: 2%;
     margin: 1%;
     height: 100%;
 }
@@ -181,8 +181,20 @@ input[type="text"].searchbox:focus{
     .book-card{
         width: 100%;
     }
+}
+
+.download-button button{
+    outline: none;
+    border: none;
+    margin-top: 2%;
+    color: #0F0E0E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
 
 }
+
+
 @media only screen and (max-width: 992px) and (min-width: 769px){
     .book-title{
         font-size: 12px;
