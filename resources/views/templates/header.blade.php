@@ -1,10 +1,3 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <nav class="navbar navbar-expand-lg navbar-light bg-default border-bottom">
     <div class="mx-auto w-50 order-0">
         <ul class="navbar-nav mr-auto">
@@ -32,10 +25,12 @@ integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amn
     <div class="navbar-collapse collapse" id="navbarToggler">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link navigation-item normal-text active" href="#">Home</a>
+                <a class="nav-link navigation-item normal-text {{ Request::is('/') ? 'active' : '' }}"
+                    href="/#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navigation-item normal-text" href="#">Books</a>
+                <a class="nav-link navigation-item normal-text {{ Request::is('books') ? 'active' : '' }}"
+                    href="/books">Books</a>
             </li>
         </ul>
     </div>

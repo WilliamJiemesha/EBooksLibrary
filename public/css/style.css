@@ -81,6 +81,7 @@ html,body{
     margin-left: 0;
     margin-right: 0;
 }
+
 .border-bottom{
     border-bottom: 0.5px solid #0F0E0E;
 }
@@ -121,11 +122,49 @@ html,body{
 .footer{
     background-color: #0F0E0E;
     clear: both;
-    position:relative;
+    position:fixed;
     bottom: 0;
     padding: 1.5vh;
 }
 
+.searchbox{
+    width: 35%;
+    padding: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+input[type="text"].searchbox{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="text"].searchbox:focus{
+    outline: none;
+}
+
+.book-card{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    border: 0.1px solid rgba(15, 14, 14, 0.2);
+    box-shadow: 3px 3px 2px 2px rgba(15, 14, 14, 0.1);
+    padding: 5%;
+    margin: 1%;
+    height: 100%;
+}
+.book-title{
+    margin-top: 5%;
+    font-size: 16px;
+}
+.book-author{
+    color: #5c5656;
+}
+
+.book-cover img{
+    width: 100px;
+    height: 150px;
+}
 
 @media only screen and (max-width: 768px)
 {
@@ -134,5 +173,21 @@ html,body{
     }
     .home-defined-text{
         margin-top: 50%;
+    }
+    .book-cover img{
+        width: 100px;
+        height: 150px;
+    }
+    .book-card{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 992px) and (min-width: 769px){
+    .book-title{
+        font-size: 12px;
+    }
+    .book-author{
+        font-size: 10px;
     }
 }

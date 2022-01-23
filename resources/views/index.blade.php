@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-Book Library</title>
+    @include('templates.imports')
 </head>
 
 <body>
@@ -22,7 +23,8 @@
     {{-- What is Books for You --}}
     <div class="container p-5 border-bottom">
         <div class="row d-flex align-items-center">
-            <div class="col-6 center align-middle bg-green card-padding white-text border-radius-7 font-size-18">Books for You is a
+            <div class="col-6 center align-middle bg-green card-padding white-text border-radius-7 font-size-18">Books
+                for You is a
                 place that stores E-Books for you to
                 download for
                 FREE</div>
@@ -36,14 +38,14 @@
         <div class="row d-flex align-items-center">
             <div class="col-6 center"><img class="card-size-image" src="{{ asset('images/grinning.png') }}" alt="">
             </div>
-            <div class="col-6 center align-middle bg-green card-padding white-text border-radius-7 font-size-18">It is literally
+            <div class="col-6 center align-middle bg-green card-padding white-text border-radius-7 font-size-18 mb-5">It is
+                literally
                 FREE for you to download</div>
         </div>
     </div>
 
     {{-- Footer --}}
     @include('templates.footer')
-    </div>
 </body>
 
 </html>
