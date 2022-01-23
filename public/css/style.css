@@ -48,6 +48,12 @@ html,body{
     font-size: 14px;
     text-decoration: none;
 }
+.big-text{
+    color: #0F0E0E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
 .normal-text-hyperlink:hover{
     color: #0F0E0E;
     font-family: 'DM Sans', sans-serif;
@@ -166,6 +172,23 @@ input[type="text"].searchbox:focus{
     height: 150px;
 }
 
+.download-button button{
+    outline: none;
+    border: none;
+    margin-top: 2%;
+    color: #0F0E0E;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+
+.no-result{
+    height: 40vh;
+    width: 100%;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
 @media only screen and (max-width: 768px)
 {
     .welcome-container{
@@ -183,17 +206,21 @@ input[type="text"].searchbox:focus{
     }
 }
 
-.download-button button{
+.login-container input{
+    max-width: 25%;
+}
+.login-button input{
+    width: 100%;
     outline: none;
     border: none;
-    margin-top: 2%;
-    color: #0F0E0E;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
-    text-decoration: underline;
-
+    padding: 0.7%;
+    background-color: #8B9A46;
+    color: #EEEEEE;
+    border-radius: 5px;
 }
-
+.login-button input:hover{
+    background-color: #A4AC6C;
+}
 
 @media only screen and (max-width: 992px) and (min-width: 769px){
     .book-title{
